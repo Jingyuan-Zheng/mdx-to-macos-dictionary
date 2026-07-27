@@ -7,6 +7,12 @@ description: Convert local MDict .mdx dictionaries (optionally with companion CS
 
 Convert the supplied local `.mdx` source into a native, searchable macOS dictionary. Unless the user explicitly asks for an output-only conversion, install the completed `.dictionary` bundle in `~/Library/Dictionaries/` and create a DMG installer with a compatible `dmg.sh` tool. Do not create ZIP installers.
 
+## External dependencies
+
+- [dmg-maker](https://github.com/Jingyuan-Zheng/dmg-maker): required to create the final DMG installer. Clone it into `<work>/dmg-maker` when `DMG_MAKER_DIR` is not already set.
+- [Dictionary Development Kit](https://github.com/SebastianSzturo/Dictionary-Development-Kit): required to compile the native `.dictionary` bundle.
+- [`mdict-utils`](https://pypi.org/project/mdict-utils/): required to read and extract `.mdx` entries.
+
 ## Prerequisites
 
 Run `scripts/check_requirements.sh` before processing a dictionary. It checks the required macOS tools and prints the exact missing-item remediation. Do not start conversion until it passes.
