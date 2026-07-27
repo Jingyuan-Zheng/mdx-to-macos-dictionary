@@ -1,0 +1,4 @@
+interface:
+  display_name: "MDX 转 macOS 词典"
+  short_description: "将 MDX 词库转换并安装为 Mac 原生词典"
+  default_prompt: "使用 $mdx-to-macos-dictionary 将这个 MDX 词库转换并安装到 macOS 词典。"
