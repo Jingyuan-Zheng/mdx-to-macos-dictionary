@@ -1,11 +1,11 @@
-# MDX to macOS Dictionary
+# MDX to macOS Dictionary Skill
 
 An Agent Skill that converts MDict (`.mdx`) dictionaries into native macOS `.dictionary` bundles, installs them in Dictionary.app, and builds a DMG installer.
 
 ## Install
 
 ```bash
-npx skills add Jingyuan-Zheng/mdx-to-macos-dictionary --agent codex
+npx skills add Jingyuan-Zheng/mdx-to-macos-dictionary-skill --agent codex
 ```
 
 ## What it does
